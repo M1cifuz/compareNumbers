@@ -1,8 +1,27 @@
+:root{
+    --color1: #CFBB84;
+    --color2: #F5DD9D;
+    --color3: #E9D295;
+    --color4: #695F43;
+    --color5: #A8986C;
+}
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 html{
-    font-size: 62.5%;
+    font-size: 62.5%; /* esto para usar medidas rem (1 rem = 10 px)*/
 }
+body{
+    background-color: var(--color4);
+}
+/* contenedor numeros */
+
+.primer-numero, .segundo-numero{
+    width: 15.6rem;
+    height: 12rem;
+    background-color: var(--color1);
+}
+/* contenedor operaciones */
+/* contenedor resultado */
