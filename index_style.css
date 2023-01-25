@@ -64,3 +64,24 @@ input[type="number"]::-webkit-inner-spin-button{
     margin: 0 0.8rem;
 }
 /* contenedor resultado */
+.container-resultado{
+    display: flex;
+    justify-content: center;
+}
+.caja-resultado{
+    width: 32.8rem;
+    height: 9.3rem;
+    background-color: var(--color3);
+    border-radius: 1rem;
+}
+#resultado{
+    background: var(--color3);
+    color: var(--color4);
+    border: 0rem;
+    outline: none;
+    width: 100%;
+    height: 70%;
+    margin-top: 4%;
+    text-align: center;
+    font-size: 2rem;
+}
