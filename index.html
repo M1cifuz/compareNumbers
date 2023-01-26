@@ -5,29 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index_style.css">
+    <script src="index_script.js"></script>
     <title>compare numbers</title>
 </head>
 <body>
     <div class="container-numeros">
         <div class="primer-numero">
-            <input id="numero1" type="number" required minlength="1" maxlength="2" placeholder="Primer numero">
+            <input id="numero1" type="number" required minlength="10" maxlength="20" placeholder="Primer numero">
         </div>
         <div class="segundo-numero">
-            <input id="numero2" type="number" required minlength="1" maxlength="2" placeholder="Segundo numero">
+            <input id="numero2" type="number" required minlength="10" maxlength="20" placeholder="Segundo numero">
         </div>    
     </div>
     <div class="container-operaciones">
-        <div class="mayor">
-
+        <div class="mayor" onclick="mayor()">
+            <p>¿Que numero es mayor?</p>
         </div>
+        <!-- <button type="button"></button> -->
         <div class="menor">
-
+            <p>></p>
         </div>
         <div class="sumar">
-
+            <p>+</p>
         </div>
         <div class="restar">
-
+            <p>-</p>
         </div>
     </div>
     <div class="container-resultado">
